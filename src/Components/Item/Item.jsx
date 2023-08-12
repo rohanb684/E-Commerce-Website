@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Item.css'
 
 
 const Item = ({ data, addToCart }) => {
@@ -8,7 +9,7 @@ const Item = ({ data, addToCart }) => {
 
   return (
     <div className="card">
-            <div className="grid">
+            <div className="card-container">
                 <div className="image">
                     <img src={image} alt="" />
                 </div>
